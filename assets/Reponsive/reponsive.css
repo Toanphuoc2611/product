@@ -1,0 +1,33 @@
+    /* tablet && Mobile */
+@media screen and (max-width: 63.9357em) {
+
+}
+
+    /* Tablet */
+@media screen and (min-width: 46.25em) and (max-width: 63.9357em) {
+    .tablet-content-text {
+        display: none;
+    }
+    .tablet-col-full{
+        width: 100%;
+        padding: 12px 24px;
+    }
+}
+    
+    /* Mobile */
+@media screen and (max-width: 46.1875em) {
+    .sub-head {
+        display: none;
+    }
+
+    .col-hafl {
+        width: 100%;
+    }
+
+    .mobile-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
